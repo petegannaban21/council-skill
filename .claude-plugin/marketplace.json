@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "council-skill",
+  "description": "Pete Gannaban's council skill: five independent perspectives plus a chairman synthesis, for consequential or hard-to-reverse decisions.",
+  "owner": {
+    "name": "Pete Gannaban"
+  },
+  "plugins": [
+    {
+      "name": "council",
+      "description": "Five independent perspectives (contrarian, first-principles, expansionist, outsider, executor) plus a chairman synthesis, for consequential or hard-to-reverse decisions.",
+      "source": ".",
+      "category": "productivity"
+    }
+  ]
+}
